@@ -1,0 +1,58 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Form Page</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Form Biodata</legend>
+            <p>
+                <label for="nama">Nama :</label>
+                <input type="text" name="nama" id="nama">
+            </p>
+            <p>
+                <label for="alamat">Alamat :</label>
+                <input type="text" name="alamat" id="alamat">
+            </p>
+            <p>
+                <label for="email">Email :</label>
+                <input type="text" name="email" id="email">
+            </p>
+            <p>
+                <label for="nim">NIM :</label>
+                <input type="text" name="nim" id="nim">
+            </p>
+            <p>
+                <label for="jk">Jenis Kelamin :</label>
+                <input type="radio" id="jk-laki" name="jk" value="laki-laki">
+                <label for="jk-laki">Laki-Laki</label>
+                <input type="radio" id="jk-perempuan" name="jk" value="perempuan">
+                <label for="jk-perempuan">Perempuan</label>
+            </p>
+            <label for="kota asal">Kota asal :</label>
+            <input type="text" name="kota asal" id="ktasl">
+            </p>
+            <p>
+                <label for="Deskripsi">Deskripsi singkat :</label>
+                <br>
+                <textarea id="Deskripsi" name="Deskripsi" cols="60" rows="10"
+                    placeholder="Tulis jawaban anda di sini"></textarea>
+            </p>
+            <p class="button-container">
+                <input type="submit" value="Submit" class="submit-button">
+            </p>
+        </fieldset>
+    </form>
+    <div class="button-container">
+        <button class="back"><a href="homepage.html" class="home-button">Home</a></button>
+    </div>
+
+</body>
+
+</html>

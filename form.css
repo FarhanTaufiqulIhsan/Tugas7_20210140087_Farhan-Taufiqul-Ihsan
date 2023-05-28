@@ -1,0 +1,68 @@
+body {
+    margin: 0 auto;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+
+form {
+    width: 75%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+legend {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+.back,
+a {
+    margin-top: 5px;
+    background-color: #92c8c1;
+    color: white;
+    text-decoration: none;
+    width: 70px;
+    height: 40px;
+    border: transparent;
+    border-radius: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: right;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+input[type="text"],
+select {
+    width: 200px;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.submit-button {
+    margin-top: 10px;
+    background-color: darkblue;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    text-align: center;
+}
+
+textarea {
+    width: 1000px;
+    margin-left: 145px;
+}
